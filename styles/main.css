@@ -60,6 +60,37 @@ p {
     padding-right:1rem;
 }
 
+
+/* CSS for project page */
+ul.projects {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   padding:0px;
+
+}
+ul.projects li {
+   height: 50vh;
+   /* https://www.w3schools.com/cssref/css_units.asp */
+   flex-grow: 1;
+    padding:.25rem;
+}
+ul.projects li:last-child {
+  flex-grow: 10;
+}
+
+ul.projects li img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+
+
+/*end of css for project page */
+
+
 /* footer styles */
 footer {
     text-align:center;
